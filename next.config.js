@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production';
-const basePath = isProd ? '/docas-front' : '';
+const basePath = isProd ? '/docas-app' : '';
 
 const nextConfig = {
   output: 'export',
