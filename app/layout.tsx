@@ -58,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const isProd = process.env.NODE_ENV === 'production';
-  const basePath = isProd ? '/docas-front' : '';
+  const basePath = isProd ? '/docas-app' : '';
   
   return (
     <html lang="pt-BR" className="scroll-smooth">
