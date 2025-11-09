@@ -32,7 +32,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NEXT_PUBLIC_BASE_PATH: /docas-front
+          NEXT_PUBLIC_BASE_PATH: /docas-app
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
